@@ -1,5 +1,4 @@
-def main():
-    def check_palindrome(str_):
+def check_palindrome(str_):
         cleanstr_=''.join(str_.split()).lower()
         #as mostly first letter of sentence is capital we need to make it lowercase
         if cleanstr_==cleanstr_[::-1]:
@@ -9,6 +8,9 @@ def main():
         else:
 
             return 0
+
+
+def main():
 
     #take user input
     sentence= input('Enter string: ')
